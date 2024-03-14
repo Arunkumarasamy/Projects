@@ -1,0 +1,40 @@
+<h3>Student Mangement</h3>
+
+<table id="tab">
+    <thead>
+        <tr class="heading">
+            <td>#</td>
+            <td>Name</td>
+            <td>Age</td>
+            <td>City</td>
+            <td>Edit</td>
+            <td>Delete</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1</td>
+            <td>Arun</td>
+            <td>23</td>
+            <td>NKL</td>
+            <td><a href="" class="edit">Edit</a></td>
+            <td><a href="" class="delete">Delete</a></td>
+        </tr>
+    </tbody>
+    <tbody>
+        {{#each rows}} {{!(each) act as loop (rows) variable name  }}
+        <tr>
+            <td>{{this.ID}}</td>     {{! this .table row Name}}
+            <td>{{this.Name}}</td>
+            <td>{{this.Age}}</td>
+            <td>{{this.City}}</td>
+            <td><a class="edit" href="/edituser/{{this.ID}}">Edit</a></td>
+            <td><a onclick="return confirm('Are you sure ?')" class="delete" href="/deleteuser/{{this.ID}}">Delete</a>
+            </td>
+        </tr>
+        {{/each}}
+    </tbody>
+</table>
+<div class="add_btn">
+    <p><a href="/adduser">Create</a></p>
+</div>

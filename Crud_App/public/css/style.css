@@ -1,0 +1,133 @@
+body{
+    font-family: sans-serif;
+    background-color: white;
+    box-sizing: border-box;    
+    width: 600px;
+    margin: 0px ;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h3{    
+    background-color: rgb(62, 192, 243);
+    text-align: center;
+    width: 85.3pc;
+    padding: 15px;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.add_btn {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(62, 192, 243);
+    border: solid 1px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 30pc;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 3px 3px 50px rgb(180, 220, 247);
+    width: 400px;
+}
+table{
+    margin-left: 20px;
+}
+.heading{
+    color: yellow;
+    font-weight: 800;
+    font-size: 20px;
+}
+table,td{
+    border: 0px solid rgb(176, 195, 216);
+    padding: 15px 85px;
+    border-collapse:collapse ;
+     box-shadow: 0px 0px 20px rgb(230, 227, 227); 
+}
+.edit{
+    text-decoration: none;
+    color: white;
+    background-color:rgb(3, 221, 40);
+    border: solid 1px;
+    border-radius: 5px; 
+    padding: 10px;
+    display: inline-block;
+}
+.delete{
+    
+    text-decoration: none;
+    color: white;
+    background-color:tomato;
+    border: solid 1px;
+    border-radius: 5px; 
+    padding: 10px;
+    display: inline-block;
+}
+
+.form_grp{
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 550px;
+}
+label{
+    font-size: 25px;
+    
+}
+input{
+    padding: 7px;
+    font-size: 15px;
+}
+
+#edit_btn {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(62, 243, 86);
+    border: solid  0px;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 50px;
+    font-size: 15px;
+    
+    text-align: center;
+    box-shadow: 0px 0px 25px rgb(62, 240, 86);
+    
+}
+.form_grp1{
+    margin-left: 500px;
+    display: inline;
+}
+.edit_view{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(62, 192, 243);
+    border: solid 0px;
+    border-radius: 10px;
+    padding: 15px;
+    position:absolute;
+    margin-left: 700px;
+    margin-top: -46px;
+    box-shadow: 0px 0px 25px rgb(180, 220, 247);
+    
+}
+.alert{
+    padding: 15px;
+    color: white;
+    background-color: rgb(62, 243, 86);
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
