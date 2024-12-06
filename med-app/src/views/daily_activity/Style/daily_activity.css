@@ -1,0 +1,16 @@
+.sales_entry_form {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+/* #combo-box-demo::after {
+  content: " *";
+  color: tomato;
+  font-size: 20px;
+} */
+
+/* .sales_entry_form button {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+} */
